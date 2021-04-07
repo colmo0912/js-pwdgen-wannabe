@@ -1,4 +1,4 @@
-var nome = prompt("Caio! Qual'è il tuo nome?");
+var nome = prompt("Ciao! Qual'è il tuo nome?");
 
 var cognome = prompt("Qual'è il tuo cognome?");
 

@@ -1,14 +1,7 @@
-var nome = "Caio! Qual'è il tuo nome?";
+var nome = prompt("Caio! Qual'è il tuo nome?");
 
-prompt(nome);
+var cognome = prompt("Qual'è il tuo cognome?");
 
-var cognome = "Qual'è il tuo cognome?"
+var colore = prompt("Qual'è il tuo colore preferito?");
 
-prompt(cognome)
-
-var colore = "Qual'è il tuo colore preferito?"
-
-prompt(colore)
-
-
-
+document.write("Ciao " + nome + " " + cognome + "! il tuo colore preferito è " + colore)
